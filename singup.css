@@ -1,0 +1,21 @@
+
+
+.fragBox{
+    position: absolute; 
+    top: 800px; 
+    left: 50%; 
+    width: 50%;
+    height: 700px;
+    padding: 20px;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    z-index: 1000; 
+    border: 2px solid rgb(18, 18, 18);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    height: 410px;
+}
+
