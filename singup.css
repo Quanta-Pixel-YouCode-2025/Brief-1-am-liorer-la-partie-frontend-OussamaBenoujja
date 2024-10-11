@@ -1,6 +1,8 @@
 
 
 .fragBox{
+    padding: clamp(30px, calc(30px + (100 - 30) * ((100vw - 1000px) / (1600 - 1000))), 100px);
+
     position: absolute; 
     top: 800px; 
     left: 50%; 
@@ -15,8 +17,14 @@
     border-radius: 8px;
 }
 
+nav-item a:hover{
+    background-color: #90145A !important;
+}
 
+    
 #sub {
+    height: 50px;
+    font-size: large;
     background-color: #90145A;
     border: 0px;
     box-shadow: 0 4px 15px black;

@@ -4473,6 +4473,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link:hover, .nav-link:focus {
+  color: #FF3E4F !important;
   text-decoration: none;
 }
 
@@ -4627,6 +4628,10 @@ input[type="button"].btn-block {
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #FF3E4F !important;
 }
 
 .navbar-nav .dropdown-menu {
