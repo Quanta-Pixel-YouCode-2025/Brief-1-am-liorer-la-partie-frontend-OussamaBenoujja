@@ -10,12 +10,28 @@
     background-color: white;
     transform: translate(-50%,-50%);
     z-index: 1000; 
-    border: 2px solid rgb(18, 18, 18);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(255, 62, 79);
+    box-shadow: 0 4px 8px rgba(144, 20, 90, 0.1);
     border-radius: 8px;
 }
 
+.box_elements input,h5{
+    width: 60%;
+    position: relative;
+    margin: 10px;
+    transform: translate(-50%,-50%);
+    left: 50%;
+}
+
+.radioGender label{
+    position: obsolute;
+    transform: translate(-50%,-50%);
+    left: 30%;
+    
+}
+
 .header {
-    height: 410px;
+    height: 100%;
+
 }
 
