@@ -5,7 +5,7 @@
     top: 800px; 
     left: 50%; 
     width: 50%;
-    height: 700px;
+    height: 750px;
     padding: 20px;
     background-color: white;
     transform: translate(-50%,-50%);
@@ -13,6 +13,24 @@
     border: 2px solid rgb(255, 62, 79);
     box-shadow: 0 4px 8px rgba(144, 20, 90, 0.1);
     border-radius: 8px;
+}
+
+
+#sub {
+    background-color: #90145A;
+    border: 0px;
+    box-shadow: 0 4px 15px black;
+}
+
+#inp {
+    height: 35px;
+    background-color: rgba(144, 20, 90, 0.4) !important;
+    border: 5px !important;
+    border-color: rgba(144, 20, 90, 0.7) !important;
+}
+
+.box_elements h5{
+    color: #90145A;
 }
 
 .box_elements input,h5{
@@ -24,6 +42,7 @@
 }
 
 .radioGender label{
+    
     position: obsolute;
     transform: translate(-50%,-50%);
     left: 30%;
