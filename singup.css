@@ -1,5 +1,7 @@
 
 
+
+
 .fragBox{
     padding: clamp(30px, calc(30px + (100 - 30) * ((100vw - 1000px) / (1600 - 1000))), 100px);
 
